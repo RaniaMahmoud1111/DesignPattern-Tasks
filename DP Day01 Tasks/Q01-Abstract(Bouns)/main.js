@@ -1,4 +1,4 @@
-import { SchoolFactory,UniversityFactory } from "./StudentFactory";
+import { SchoolFactory,UniversityFactory } from "./StudentFactory.js";
 
 const s1=SchoolFactory.createStudent( "Ahmed");
 const s2=UniversityFactory.createStudent( "Rania");

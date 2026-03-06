@@ -1,4 +1,4 @@
-import { SchoolStudent,UniversityStudent } from  "./Students";
+import { SchoolStudent,UniversityStudent } from  "./Students.js";
 export class StudentFactory{
     static createStudent(type,name){
         if(type=="school"){
